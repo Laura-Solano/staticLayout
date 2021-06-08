@@ -60,25 +60,25 @@ justify-content: center;
 }
 
 .middlebanner {
-  background-image: linear-gradient(
-    318.68deg, #0F495C 0%, #0D3640 49.72%, #08141F 100%);
-  padding: 34px 40px;
-  display:flex;
+  background-image: linear-gradient(318.68deg, #0F495C 0%, #0D3640 49.72%, #08141F 100%);
+    padding: 34px 40px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
-.disneyblock{
-justify-content: flex-start;
-  align-content: center;
-}
+
 .block{
   text-align: left;
 
 }
 .buttonblock{
-align-self:flex-end;
+display: flex;
+flex-direction: column;
 
 }
 #disney{
-  width: 500px;
+  width: 350px;
   height: auto;
 
 }
@@ -89,14 +89,16 @@ align-self:flex-end;
 
 #bundlebutton{
   font-size: 15px;
-  height: 25px;
   border-style: solid;
-  padding: 20px 20px 20px 20px;
   border-radius: 5px;
+  padding: 15px 15px;
+  
 }
 
 #termsbutton{color: #fff;
   font-size: 14px;
+  padding-top: 25px;
+ 
 }
 
 
