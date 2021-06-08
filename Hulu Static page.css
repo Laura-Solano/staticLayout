@@ -1,0 +1,183 @@
+body {
+  background-color: #001;
+  font-family: 'Graphik', Helvetica, Arial, sans-serif;
+  text-align: center;
+  color:white
+}
+.links {
+  color:white;
+  font-size: 16px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#loginbutton {
+text-align: end;
+background-color: black;
+ 
+}
+
+.pageone{
+padding-top: 100px;
+padding-bottom: 100px;
+display: flex;
+flex-direction: column;
+align-items: center;
+flex-grow: 1;
+background-image: linear-gradient(to top, transparent 85%, rgba(19, 17, 17, 0.65) 100%), url(https://www.hulu.com/static/hitch/s3/attachments/ckbvd0gyz00xg19mlsu9nayv7-homepage-masthead-test-desktop-3200x1320-v4c-6-16-20.jpg);
+box-shadow: 10px 15px #001;
+opacity: .85;
+}
+.pageonechild {
+
+  flex: 1; 
+margin-right: 400px;
+margin-left:400px;
+justify-content: center;
+}
+
+#logo{
+ width: 290px;
+ 
+}
+  
+#trialbutton{
+  background-color: white;
+  color:black;
+  border-style:solid 5px white;
+   margin: 20px;
+  height: 55px;
+  border-radius: 4px;
+    padding: 10px 32px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 14px;
+    letter-spacing: 1px;
+}
+#text-three{
+  font-size: 12px;
+  opacity: .6;
+}
+
+.middlebanner {
+  background-image: linear-gradient(
+    318.68deg, #0F495C 0%, #0D3640 49.72%, #08141F 100%);
+  padding: 34px 40px;
+  display:flex;
+}
+.disneyblock{
+justify-content: flex-start;
+  align-content: center;
+}
+.block{
+  text-align: left;
+
+}
+.buttonblock{
+align-self:flex-end;
+
+}
+#disney{
+  width: 500px;
+  height: auto;
+
+}
+
+#detailsbutton{color: #fff;
+  font-size: 14px;
+}
+
+#bundlebutton{
+  font-size: 15px;
+  height: 25px;
+  border-style: solid;
+  padding: 20px 20px 20px 20px;
+  border-radius: 5px;
+}
+
+#termsbutton{color: #fff;
+  font-size: 14px;
+}
+
+
+
+  .midcentertext {
+    color: #1ce783;
+    font-size: 13px
+  }
+
+  .middletext{
+  text-align: center;
+
+  }
+  #includedtext{
+    padding-top: 70px;
+  }
+
+  .lovetext{font-size: 64px;
+  }
+
+  #streamtext{font-size: 24px;
+    max-width: 792px;
+    padding-left: 325px;
+
+  }
+  .shows{
+    display:flex;
+    justify-content: center;
+    column-gap: 20px;
+      row-gap: 20px;
+  }
+
+  .showtext1{
+    color:#fff;
+    font-size: 12px;
+    padding-top: 25px;
+  }
+
+
+.showtext2{
+  color:#fff;
+  font-size: 24px;
+  font: bold;
+  padding-top: 5px;
+
+}
+
+.showcontainer{position: relative;
+}
+.showtextbox {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0
+}
+.showcontainer2{position: relative;
+}
+.showtextbox2 {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0
+}
+.showcontainer3{position: relative;
+}
+.showtextbox3 {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0
+}
+.showcontainer4{position: relative;
+}
+.showtextbox4 {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0
+}
+#premium {
+  font-size: 10px;
+  text-align: right;
+padding-right: 145px;
+}
